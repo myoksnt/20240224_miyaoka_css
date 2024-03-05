@@ -1,0 +1,46 @@
+header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 25px;
+    color: rgb(25, 25, 135);
+}
+
+ul {
+    font-size: 20px;
+    color: rgb(25, 25, 135);
+    display: flex;
+    gap: 40px;
+}
+
+.relative {
+    position: relative;
+    top: 80px;
+    text-align: right;
+}
+
+img {
+    width: 650px;
+    height: 400px;
+}
+
+.example1 {
+    display: inline-block;
+    font-size: 50px;
+    color: black;
+    height: 10px;
+    line-height: 10px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.blue-box {
+    position: absolute;
+    width: 800px;
+    height: 150px;
+    top: 530px;
+    background-color: rgb(22, 22, 138);
+}
