@@ -26,19 +26,22 @@ ul {
 img {
     width: 50vw;
     height: auto;
+    margin: 0 0 0 auto;
 }
 
 .blue-box {
+    position: absolute;
     width: 75%;
     aspect-ratio: 5 / 1;
-    top: 530px;
+    height: auto;
     background-color: rgb(22, 22, 138);
     z-index: 0;
 }
 
 p {
-    font-size: 50px;
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    font-size: calc(5.5vw);
     color: black;
-    text-align: left;
-    transform: translate(0px, -260px);
 }
