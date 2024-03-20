@@ -18,7 +18,7 @@ ul {
 
 .relative {
     position: relative;
-    top: 80px;
+    top: 15vh;
     text-align: right;
     z-index: 1;
 }
@@ -30,8 +30,9 @@ img {
 }
 
 p {
+    display: flex;
     position: absolute;
-    top: auto;
+    top: 40vh;
     font-size: calc(5.5vw);
     color: black;
     text-align: left;
